@@ -22,10 +22,10 @@ const Footer = () => {
           </p>
 
           <div className="social-icons">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaLinkedinIn /></a>
-            <a href="#"><FaWhatsapp /></a>
+            <a href="https://www.facebook.com/apinfragroup?mibextid=wwXIfr&mibextid=wwXIfr"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/ap_infra_group?igsh=NXJ2NGp2YnE3bDZu&utm_source=qr"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/company/ap-infra-group/"><FaLinkedinIn /></a>
+            <a href="7082003056"><FaWhatsapp /></a>
           </div>
         </div>
 
