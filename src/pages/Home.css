@@ -1,0 +1,34 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.feature-card {
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  border-bottom: 4px solid var(--gold);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  color: var(--black);
+  margin-bottom: 14px;
+}
+
+.feature-card p {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+}

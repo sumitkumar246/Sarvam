@@ -1,0 +1,66 @@
+.contact-section {
+  min-height: 90vh;
+  padding: 80px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(rgba(250,247,240,0.92), rgba(250,247,240,0.92)),
+    url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1600&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+}
+
+.premium-form {
+  width: 100%;
+  max-width: 560px;
+  background: white;
+  padding: 45px;
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  border-top: 5px solid var(--gold);
+}
+
+.premium-form span {
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.premium-form h2 {
+  margin: 10px 0 25px;
+  font-size: 34px;
+}
+
+.premium-form input,
+.premium-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.premium-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.premium-form input:focus,
+.premium-form textarea:focus {
+  border-color: var(--gold);
+}
+
+.premium-form button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, var(--gold), var(--dark-gold));
+  border: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+}
