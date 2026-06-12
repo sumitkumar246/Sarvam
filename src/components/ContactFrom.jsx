@@ -20,7 +20,7 @@ const ContactForm = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:3000/api/enquiry",
+        "https://Sarvam-1.onrender.com/api/enquiry",
         {
           method: "POST",
           headers: {
