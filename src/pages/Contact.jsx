@@ -17,7 +17,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:3000/api/enquiry", {
+      const res = await fetch("https://Sarvam-1.onrender.com/api/enquiry", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
